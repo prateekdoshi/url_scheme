@@ -4,12 +4,13 @@
 
 <script>
 function navigate(){
-window.location.href="https://mobile-testing.fiixstg.com/deeplinking?a=1234"
+//window.location.href="https://mobile-testing.fiixstg.com/deeplinking?a=1234"
+  window.location.href="intent://details?a=11553927&url=Y&referrer=Z#Intent;scheme=assetdeeplink;action=android.intent.action.VIEW;package=fiix.cmms.mobile";
 
 }
 </script>
 </head>
-<body>
+<body onload="navigate()">
 
 
 <button onClick="navigate()">Launch App </button>
