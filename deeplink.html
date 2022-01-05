@@ -12,6 +12,11 @@ window.location.href="intent://mobile-testing/?a=11553927#Intent;scheme=macmmsap
   {
     window.location.href="macmmsapp://?a=1155392";
   }
+ 
+ function navigate2()
+  {
+    window.location.href="https://warrenschool.macmms.com/?a=1155392";
+  }
   </script>
 </head>
 <body>
@@ -19,6 +24,7 @@ window.location.href="intent://mobile-testing/?a=11553927#Intent;scheme=macmmsap
 <a href="intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end"> Take a QR code </a>
 <button onClick="navigate()">Launch App New </button>
   <button onClick="navigate1()">Launch App Old </button>
+  <button onClick="navigate2()">Launch App using app link </button>
 <a href="intent://mobile-testing/?a=11553927#Intent;scheme=macmmsapp;package=fiix.cmms.mobile.staging;end"> Launch Fiix App </a>
 </body>
 </html>
